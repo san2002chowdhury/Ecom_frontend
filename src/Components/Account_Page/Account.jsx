@@ -21,7 +21,6 @@ const Account = () => {
     return state?.userReducer?.user_details;
   });
 
-  console.log("===data===", data);
   useEffect(() => {
     dispatch({
       type: FETCH_USER_DETAILS_REQUEST,
